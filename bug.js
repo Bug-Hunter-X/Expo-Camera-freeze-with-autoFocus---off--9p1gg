@@ -1,0 +1,1 @@
+This bug occurs when using the Expo Camera API with custom camera configurations.  Specifically, when setting the `autoFocus` property to `'off'` and attempting to take a picture using `takePictureAsync`, the camera preview freezes and the picture is not taken.  The console shows no errors, leading to debugging difficulties.
